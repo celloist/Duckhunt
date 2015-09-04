@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="fa694376-26f9-42f8-9548-ca00d19fefa9" name="DuckHuntClassDiagram" linkedPackageId="73158910-8f6a-4d19-9365-b807dacc5a30" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="cbe1020a-0103-43ac-8328-8de13389788f">
+      <profileInstance Id="957230a6-aca7-42e7-9b9c-b4b62105686a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="81a09f16-087f-480f-ba90-98bb09417a88">
+      <profileInstance Id="63df500a-2920-4e04-87a4-55b40acaf4d2" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="dfc8582e-1d51-464e-b44d-74f9d6ea70fd" name="Models">
+        <elementDefinition Id="6c78399f-2809-4bea-87cf-1961095263fb" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <Interface Id="3c188eff-c8b0-4360-84c1-82dc0229e89f" name="GameObject" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="40b26d4c-17e0-4597-a18b-7df056a0f6ec" />
+              <suppliersInternal>
+                <dependency Id="95908e11-8e49-4309-b22d-07836eb2b3ac">
+                  <classMoniker Id="d8218637-6adb-488c-93b7-a993c964cc0b" LastKnownName="GameObject" />
+                  <elementDefinition Id="b70c146c-21a3-4cc6-a661-961f77baa0fc" />
+                </dependency>
+              </suppliersInternal>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="d8218637-6adb-488c-93b7-a993c964cc0b" name="GameObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="96638b33-bb83-4d14-a388-9c122499b080" />
+              <generalsInternal>
+                <generalization Id="492da0ae-130b-4793-98d8-a23f7198482d" isSubstitutable="false">
+                  <classMoniker Id="d265f0b3-0392-435b-996a-36c0477ce35b" LastKnownName="Zombie" />
+                  <elementDefinition Id="5b591bf8-7581-4c55-b874-0112fa798c0b" />
+                </generalization>
+                <generalization Id="37f26afe-303a-4cac-a6a4-a2a4da915b35" isSubstitutable="false">
+                  <classMoniker Id="b87b6edc-4e75-4e9b-82ab-155897aa424d" LastKnownName="LaraCroft" />
+                  <elementDefinition Id="91a69c75-3826-4a0d-9614-0342d1a54047" />
+                </generalization>
+              </generalsInternal>
+              <targetEnds>
+                <association Id="ab629aa3-fd58-4ef3-8a62-03db296b6ddc" isDerived="false" sourceEndRoleName="GameObject" targetEndRoleName="GameObject" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="d8218637-6adb-488c-93b7-a993c964cc0b" LastKnownName="GameObject" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="0ee40208-7fd8-4c40-b970-9740530fa414" name="GameObject" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="9f2aeed0-b8d5-4056-adc1-0658356c145c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="b427b588-85b1-47e6-a0b5-6bf396c9a226" name="GameObject" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="d579d822-e228-4ab4-b64c-b5de594b6550" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="df18bb08-f348-459c-be61-af61e06b4d59" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="d265f0b3-0392-435b-996a-36c0477ce35b" name="Zombie" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="f52a0f7a-3acb-4761-8f14-27378fc376a5" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="1d767a86-865f-42b1-a6ff-e974e7efd53d" name="LevelObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a481accd-f158-44d8-829a-7776200d8121" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="ae828f9b-59c4-4bc1-8b0d-dbb0be49d7e4" name="Player" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a4a297c3-5ebb-4fe4-bf96-1ecb924157c5" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="b87b6edc-4e75-4e9b-82ab-155897aa424d" name="LaraCroft" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="bde8bd78-554a-40d0-8611-9ca9153f6f2e" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="6a0d2256-cefe-4a45-8c25-1396e81d3df9" name="ViewModel">
+        <elementDefinition Id="cbe93069-141f-43cb-85bc-7305ad5453c3" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="824b8173-f706-4e23-b887-108e1d2c4ec2" name="InputContainer" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="fe02c0d0-7a8a-4945-9659-e64a413a69cf" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="104be76d-357d-4537-b10c-574fa1aba89e" name="GameVM" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="588c8cfd-3d86-4c43-a416-c06e75933c24" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="73158910-8f6a-4d19-9365-b807dacc5a30" name="DuckhuntDiagram">
+    <elementDefinition Id="7d4618ff-7512-4fed-a884-6c4f23a6ad53" />
+  </package>
+</logicalClassDesignerModel>

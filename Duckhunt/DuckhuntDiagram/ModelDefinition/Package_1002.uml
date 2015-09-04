@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6c78399f-2809-4bea-87cf-1961095263fb"
+  name="Models" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="40b26d4c-17e0-4597-a18b-7df056a0f6ec"
+        name="GameObject"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="b70c146c-21a3-4cc6-a661-961f77baa0fc">
+            <classMoniker
+              Id="96638b33-bb83-4d14-a388-9c122499b080"
+              LastKnownName="GameObject"
+              LastKnownLocation="Package_1002.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="96638b33-bb83-4d14-a388-9c122499b080"
+        name="GameObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="5b591bf8-7581-4c55-b874-0112fa798c0b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f52a0f7a-3acb-4761-8f14-27378fc376a5"
+              LastKnownName="Zombie"
+              LastKnownLocation="Package_1002.uml" />
+          </generalization>
+          <generalization
+            Id="91a69c75-3826-4a0d-9614-0342d1a54047"
+            isSubstitutable="false">
+            <classMoniker
+              Id="bde8bd78-554a-40d0-8611-9ca9153f6f2e"
+              LastKnownName="LaraCroft"
+              LastKnownLocation="Package_1002.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="df18bb08-f348-459c-be61-af61e06b4d59"
+            isDerived="false"
+            sourceEndRoleName="GameObject"
+            targetEndRoleName="GameObject"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="96638b33-bb83-4d14-a388-9c122499b080"
+              LastKnownName="GameObject"
+              LastKnownLocation="Package_1002.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9f2aeed0-b8d5-4056-adc1-0658356c145c"
+                  name="GameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d579d822-e228-4ab4-b64c-b5de594b6550"
+                  name="GameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f52a0f7a-3acb-4761-8f14-27378fc376a5"
+        name="Zombie"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a481accd-f158-44d8-829a-7776200d8121"
+        name="LevelObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a4a297c3-5ebb-4fe4-bf96-1ecb924157c5"
+        name="Player"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bde8bd78-554a-40d0-8611-9ca9153f6f2e"
+        name="LaraCroft"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
