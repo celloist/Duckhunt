@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duckhunt", "Duckhunt\Duckhunt.csproj", "{73F495F7-EE2D-46B9-92D9-81AF51DD926E}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "DuckhuntDiagram", "DuckhuntDiagram\DuckhuntDiagram.modelproj", "{4DBE5F74-5BE8-4CD7-B614-10218320BB84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73F495F7-EE2D-46B9-92D9-81AF51DD926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F495F7-EE2D-46B9-92D9-81AF51DD926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F495F7-EE2D-46B9-92D9-81AF51DD926E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBE5F74-5BE8-4CD7-B614-10218320BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBE5F74-5BE8-4CD7-B614-10218320BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBE5F74-5BE8-4CD7-B614-10218320BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBE5F74-5BE8-4CD7-B614-10218320BB84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
