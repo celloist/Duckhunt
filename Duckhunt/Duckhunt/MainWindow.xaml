@@ -3,14 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="700" Width="600">
     <Border BorderBrush="Black" BorderThickness="10" >
-        <Grid>
+        <Grid Background="Black">
             <Grid.RowDefinitions>
                 <RowDefinition Height="529"></RowDefinition>
             </Grid.RowDefinitions>
             <Canvas Name="MyGameCanvas" Width="550" 
-                        Height="500" Background="SkyBlue" Opacity="0.6" >
-                <Image Name="ZombieImage" Width="75"
-                       Height="75">  </Image>
+                        Height="500" Background="LawnGreen" Opacity="1.0" >
+                <Image Name="ZombieImage" Width="50"
+                       Height="50">  </Image>
             </Canvas>
 
         </Grid>

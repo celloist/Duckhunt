@@ -6,9 +6,7 @@ D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\MainWindow.g.cs
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\App.g.cs
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt_MarkupCompile.cache
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.g.resources
-D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.GameSources.resources
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.Properties.Resources.resources
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.csproj.GenerateResource.Cache
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.exe
 D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.pdb
-D:\Repos\DP2\Duckhunt\Duckhunt\Duckhunt\obj\Debug\Duckhunt.csprojResolveAssemblyReference.cache

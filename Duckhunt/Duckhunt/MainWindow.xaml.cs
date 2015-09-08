@@ -29,6 +29,9 @@ namespace Duckhunt
             ImageBrush ib = new ImageBrush();
             ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/resources/apocalypse1.jpg", UriKind.Absolute));
             MyGameCanvas.Background = ib;
+            ImageBrush zombie = new ImageBrush();
+            ZombieImage.Source = new BitmapImage(new Uri("pack://application:,,,/resources/kirbyzombie50.png", UriKind.Absolute));
+            
         }
     }
 }

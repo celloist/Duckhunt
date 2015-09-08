@@ -73,9 +73,9 @@ namespace Duckhunt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap KirbyZombie75 {
+        internal static System.Drawing.Bitmap kirbyzombie50 {
             get {
-                object obj = ResourceManager.GetObject("KirbyZombie75", resourceCulture);
+                object obj = ResourceManager.GetObject("kirbyzombie50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
