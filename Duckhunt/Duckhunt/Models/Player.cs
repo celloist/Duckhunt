@@ -8,5 +8,10 @@ namespace Duckhunt.Models
 {
     class Player
     {
+       
+        public Player()
+        {
+
+        }
     }
 }
